@@ -31,6 +31,7 @@ class Google_Service_ReadContacts {
     const BASE_URL = "https://people.googleapis.com/v1/people:searchContacts";
 
     private $query;
+    private $gam;
 
     /**
     * Constructs the internal representation of the Admin service.

@@ -11,7 +11,7 @@ class Send_to_Telegram extends superfecta_base {
 
     public $description;
     public $version_requirement = "2.11";
-
+    public $source_param;
 	public function __construct()
     {
         $this->description = _("This source will send the CID number and the CID name to a Bot from Telegram.");

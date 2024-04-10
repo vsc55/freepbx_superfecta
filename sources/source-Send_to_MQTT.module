@@ -13,6 +13,7 @@ class Send_to_MQTT extends superfecta_base {
 
     public $description;
     public $version_requirement = "2.11";
+    public $source_param;
     public function __construct()
     {
         $this->description = _("This source will send CID number and name to an MQTT topic for external processing. The MQTT topic is added with DID and payload is JSON format. To use this feature, mosquitto has to be installed.");

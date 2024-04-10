@@ -20,7 +20,7 @@ class iAddressBook extends superfecta_base {
 
 	public $description;
 	public $version_requirement = "2.11";
-
+	public $source_param;
 	public function __construct() {
 		$this->description = _("Performs search of iAddressBook database");
 		$this->source_param = array(

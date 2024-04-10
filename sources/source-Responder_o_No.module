@@ -9,6 +9,7 @@ class Responder_o_No extends superfecta_base {
 
 	public $description;
 	public $version_requirement = "2.11";
+	public $source_param;
 
 	public function __construct()
 	{
