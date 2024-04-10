@@ -9,6 +9,7 @@
  *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***/ class VOIP_Innovations_Apidaze extends superfecta_base {
     public $description = "Gets Caller ID and Fraud Score via the VOIP Innovations 'Apidaze' API. https://carrierservices.sangoma.com/";
     public $version_requirement = "2.11";
+	public $source_param;
 	public function __construct() {
 		$this->source_param = array(
 			'Login_Name' => array(

@@ -215,19 +215,19 @@ class Google_Model implements ArrayAccess
       );
     }
   }
-
+  #[\ReturnTypeWillChange]
   public function offsetExists($offset)
   {
     return isset($this->$offset) || isset($this->modelData[$offset]);
   }
-
+  #[\ReturnTypeWillChange]
   public function offsetGet($offset)
   {
     return isset($this->$offset) ?
         $this->$offset :
         $this->__get($offset);
   }
-
+  #[\ReturnTypeWillChange]
   public function offsetSet($offset, $value)
   {
     if (property_exists($this, $offset)) {
@@ -237,7 +237,7 @@ class Google_Model implements ArrayAccess
       $this->processed[$offset] = true;
     }
   }
-
+  #[\ReturnTypeWillChange]
   public function offsetUnset($offset)
   {
     unset($this->modelData[$offset]);

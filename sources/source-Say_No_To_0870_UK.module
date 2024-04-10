@@ -17,6 +17,7 @@
  *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 class Say_No_To_0870_UK extends superfecta_base {	
 	public $version_requirement = "2.11";
+	public $description;
 
 	public function __construct() {
 		$this->description = "http://www.saynoto0870.com - "._("These listings include Non-Geographical Alternative Business Telephone Numbers for the UK.");
