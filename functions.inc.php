@@ -44,7 +44,7 @@ function superfecta_hook_core($viewing_itemid, $target_menuid) {
 		$info = explode("/", $viewing_itemid);
 		$sql = "SELECT scheme FROM superfecta_to_incoming WHERE extension = ? AND cidnum = ?";
 		$q = $db->prepare($sql);
-		$q->execute(array($info[0], $info[1])); // protect against $info array too small or too large
+		$q->execute(array($info[0] ?? '', $info[1] ?? '')); // protect against $info array too small or too large
 		$scheme = $q->fetchColumn();
 
 		$first = '<option value="ALL|ALL" {$selected}>'._('ALL').'</option>';
