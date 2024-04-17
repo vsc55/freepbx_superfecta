@@ -7,8 +7,8 @@
  * 	2013-08-12		support for multiple email address and debug output
  * 	2015-02-20		Added support for from: address
  * 	2018-04-22		Added support including DID in email subject/body
- *  2019-05-04		Fix bug in DID and add field to specify DID if unknown
- * 
+ * 	2019-05-04		Fix bug in DID and add field to specify DID if unknown
+ * 	2024-04-17		Add timestamp support to email subject and body
  *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***/
 
 class Send_to_Email extends superfecta_base {
@@ -22,12 +22,12 @@ class Send_to_Email extends superfecta_base {
 			'default' => ''
 		),
 		'Message_Subject' => array(
-			'description' => 'Content for the subject of the email.  Substitute [NUMBER], [NAME] and [DID] for CID variables.',
+			'description' => 'Content for the subject of the email.  Substitute [NUMBER], [NAME] for Caller variables, [DID] for inbound number and [DATE] for a datestamp.',
 			'type' => 'textarea',
 			'default' => 'Incoming call from [NAME] at [NUMBER]'
 		),
 		'Message_Body' => array(
-			'description' => 'Content for the body of the email. Substitute [NUMBER], [NAME] and [DID] for CID variables.',
+			'description' => 'Content for the body of the email. Substitute [NUMBER], [NAME] for Caller variables, [DID] for inbound number and [DATE] for a datestamp.',
 			'type' => 'textarea',
 			'default' => 'Incoming call to [DID] from [NAME] at [NUMBER]. Automated notification email sent by the POSSA Superfecta Caller ID Module'
 		),
@@ -77,7 +77,9 @@ class Send_to_Email extends superfecta_base {
 		$subject = str_replace('[NUMBER]', $thenumber, $subject);
 		$subject = str_replace('[number]', $thenumber, $subject);
 		$subject = str_replace('[DID]', $from_did, $subject);
-		$subject = str_replace('[did]', $from_did, $subject);		
+		$subject = str_replace('[did]', $from_did, $subject);
+		$subject = str_replace('[DATE]', date("D M j G:i:s T Y"), $subject);
+		$subject = str_replace('[date]', date("D M j G:i:s T Y"), $subject);
 
 		if ($run_param['Message_Body'] != ""){
 			$body = $run_param['Message_Body'];
@@ -90,6 +92,8 @@ class Send_to_Email extends superfecta_base {
 		$body = str_replace('[number]', $thenumber, $body);
 		$body = str_replace('[DID]', $from_did, $body);
 		$body = str_replace('[did]', $from_did, $body);
+		$body = str_replace('[DATE]', date("D M j G:i:s T Y"), $body);
+		$body = str_replace('[date]', date("D M j G:i:s T Y"), $body);
 
 		if ($run_param['From_Address'])  {
 			$headers =  'From: '.$run_param['From_Address']."\r\n";
