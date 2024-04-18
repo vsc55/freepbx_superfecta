@@ -28,10 +28,6 @@ msgid ""
 "for your situation."
 msgstr ""
 
-#: superfecta.i18n.php:6
-msgid "Admin"
-msgstr ""
-
 #: views/add_scheme.php:348 views/scheme.php:137
 msgid "Available Encodings"
 msgstr ""
@@ -46,10 +42,6 @@ msgstr ""
 
 #: views/add_scheme.php:53 views/scheme.php:50
 msgid "CID Rules"
-msgstr ""
-
-#: superfecta.i18n.php:4 superfecta.i18n.php:10
-msgid "CID Superfecta"
 msgstr ""
 
 #: Superfecta.class.php:302
@@ -444,12 +436,6 @@ msgstr ""
 #: Superfecta.class.php:202
 #, php-format
 msgid "Prefix Url result took %s seconds."
-msgstr ""
-
-#: superfecta.i18n.php:8
-msgid ""
-"Provides simultaneous use of, and complete control over multiple caller id "
-"data sources."
 msgstr ""
 
 #: Superfecta.class.php:841

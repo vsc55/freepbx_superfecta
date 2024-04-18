@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 08:51+0000\n"
+"POT-Creation-Date: 2024-04-18 01:41+0000\n"
 "PO-Revision-Date: 2016-12-11 12:35+0200\n"
 "Last-Translator: Ernesto <ecasas@sangoma.com>\n"
 "Language-Team: Spanish <http://weblate.freepbx.org/projects/freepbx/"
@@ -53,10 +53,6 @@ msgstr ""
 "Agregar, Eliminar, Habilitar, Deshabilitar, Ordenar y Configurar fuentes de "
 "datos según corresponda a su situación."
 
-#: superfecta.i18n.php:6
-msgid "Admin"
-msgstr "Administ"
-
 #: views/add_scheme.php:348 views/scheme.php:137
 msgid "Available Encodings"
 msgstr ""
@@ -72,10 +68,6 @@ msgstr "Prefijo CID URL"
 #: views/add_scheme.php:53 views/scheme.php:50
 msgid "CID Rules"
 msgstr "Reglas CID"
-
-#: superfecta.i18n.php:4 superfecta.i18n.php:10
-msgid "CID Superfecta"
-msgstr "Superfecta CID"
 
 #: Superfecta.class.php:302
 #, php-format
@@ -549,14 +541,6 @@ msgstr "Prefijo Url definido pero el resultado estaba vacío"
 msgid "Prefix Url result took %s seconds."
 msgstr "El resultado del prefijo Url tomó %s segundos."
 
-#: superfecta.i18n.php:8
-msgid ""
-"Provides simultaneous use of, and complete control over multiple caller id "
-"data sources."
-msgstr ""
-"Provee uso simultaneo de, y control completo sobe muchas fuentes de datos de "
-"Identificador de Llamada."
-
 #: Superfecta.class.php:841
 msgid "Reset"
 msgstr "Reinicio"
@@ -818,6 +802,19 @@ msgstr "El resultado tomó %s segundos"
 #: views/scheme.php:101 views/scheme.php:111 views/scheme.php:177
 msgid "yes"
 msgstr "si"
+
+#~ msgid "Admin"
+#~ msgstr "Administ"
+
+#~ msgid "CID Superfecta"
+#~ msgstr "Superfecta CID"
+
+#~ msgid ""
+#~ "Provides simultaneous use of, and complete control over multiple caller "
+#~ "id data sources."
+#~ msgstr ""
+#~ "Provee uso simultaneo de, y control completo sobe muchas fuentes de datos "
+#~ "de Identificador de Llamada."
 
 #~ msgid "Enable CID Superfecta"
 #~ msgstr "Habilitar Superfecta CID"

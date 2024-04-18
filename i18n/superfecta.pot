@@ -3,13 +3,13 @@
 # For licensing information, please see the file named LICENSE located in the module directory
 #
 # FreePBX language template for superfecta
-# Copyright (C) 2008-2023 Sangoma Technologies, Inc.
+# Copyright (C) 2008-2024 Sangoma Technologies, Inc.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-12 17:47+0000\n"
+"POT-Creation-Date: 2024-04-18 01:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,10 +58,6 @@ msgid ""
 "for your situation."
 msgstr ""
 
-#: superfecta.i18n.php:6
-msgid "Admin"
-msgstr ""
-
 #: views/add_scheme.php:348
 #: views/scheme.php:137
 msgid "Available Encodings"
@@ -79,11 +75,6 @@ msgstr ""
 #: views/add_scheme.php:53
 #: views/scheme.php:50
 msgid "CID Rules"
-msgstr ""
-
-#: superfecta.i18n.php:4
-#: superfecta.i18n.php:10
-msgid "CID Superfecta"
 msgstr ""
 
 #: Superfecta.class.php:302
@@ -494,12 +485,6 @@ msgstr ""
 #: Superfecta.class.php:202
 #, php-format
 msgid "Prefix Url result took %s seconds."
-msgstr ""
-
-#: superfecta.i18n.php:8
-msgid ""
-"Provides simultaneous use of, and complete control over multiple caller id "
-"data sources."
 msgstr ""
 
 #: Superfecta.class.php:841

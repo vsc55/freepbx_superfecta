@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 08:51+0000\n"
+"POT-Creation-Date: 2024-04-18 01:41+0000\n"
 "PO-Revision-Date: 2018-03-14 14:52+0200\n"
 "Last-Translator: james <zhulizhong@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://weblate.freepbx.org/projects/"
@@ -44,10 +44,6 @@ msgid ""
 "for your situation."
 msgstr ""
 
-#: superfecta.i18n.php:6
-msgid "Admin"
-msgstr "管理"
-
 #: views/add_scheme.php:348 views/scheme.php:137
 msgid "Available Encodings"
 msgstr ""
@@ -62,10 +58,6 @@ msgstr ""
 
 #: views/add_scheme.php:53 views/scheme.php:50
 msgid "CID Rules"
-msgstr ""
-
-#: superfecta.i18n.php:4 superfecta.i18n.php:10
-msgid "CID Superfecta"
 msgstr ""
 
 #: Superfecta.class.php:302
@@ -462,12 +454,6 @@ msgstr ""
 msgid "Prefix Url result took %s seconds."
 msgstr ""
 
-#: superfecta.i18n.php:8
-msgid ""
-"Provides simultaneous use of, and complete control over multiple caller id "
-"data sources."
-msgstr ""
-
 #: Superfecta.class.php:841
 msgid "Reset"
 msgstr "重置"
@@ -708,3 +694,6 @@ msgstr ""
 #: views/scheme.php:101 views/scheme.php:111 views/scheme.php:177
 msgid "yes"
 msgstr ""
+
+#~ msgid "Admin"
+#~ msgstr "管理"

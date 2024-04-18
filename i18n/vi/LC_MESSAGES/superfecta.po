@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-20 08:51+0000\n"
+"POT-Creation-Date: 2024-04-18 01:41+0000\n"
 "PO-Revision-Date: 2017-08-03 10:42+0200\n"
 "Last-Translator: PETER <ftek@ymail.com>\n"
 "Language-Team: Vietnamese <http://weblate.freepbx.org/projects/freepbx/"
@@ -53,10 +53,6 @@ msgstr ""
 "Thêm, xóa, kích hoạt, vô hiệu, sắp xếp và cấu hình các nguồn dữ liệu phù hợp "
 "với hoàn cảnh của bạn."
 
-#: superfecta.i18n.php:6
-msgid "Admin"
-msgstr "Quản trị viên"
-
 #: views/add_scheme.php:348 views/scheme.php:137
 msgid "Available Encodings"
 msgstr ""
@@ -72,10 +68,6 @@ msgstr "CID Prefix URL ( Caller ID Prefix URL)"
 #: views/add_scheme.php:53 views/scheme.php:50
 msgid "CID Rules"
 msgstr "Nguyên tắc của CID"
-
-#: superfecta.i18n.php:4 superfecta.i18n.php:10
-msgid "CID Superfecta"
-msgstr "CID Superfecta ( Claler ID Superfecta)"
 
 #: Superfecta.class.php:302
 #, php-format
@@ -539,13 +531,6 @@ msgstr "Thêm tiền tố cho Url được xác định như kết quả trống
 msgid "Prefix Url result took %s seconds."
 msgstr "Thêm tiền tố cho kết quả Url mất %s giây."
 
-#: superfecta.i18n.php:8
-msgid ""
-"Provides simultaneous use of, and complete control over multiple caller id "
-"data sources."
-msgstr ""
-"Cung cấp sử dụng động thời, và điều khiển toàn bộ nguồn dữ liệu Caller id."
-
 #: Superfecta.class.php:841
 msgid "Reset"
 msgstr "Cài đặt lại"
@@ -800,3 +785,15 @@ msgstr "Kết quả sẽ mất %s giây"
 #: views/scheme.php:101 views/scheme.php:111 views/scheme.php:177
 msgid "yes"
 msgstr "Có"
+
+#~ msgid "Admin"
+#~ msgstr "Quản trị viên"
+
+#~ msgid "CID Superfecta"
+#~ msgstr "CID Superfecta ( Claler ID Superfecta)"
+
+#~ msgid ""
+#~ "Provides simultaneous use of, and complete control over multiple caller "
+#~ "id data sources."
+#~ msgstr ""
+#~ "Cung cấp sử dụng động thời, và điều khiển toàn bộ nguồn dữ liệu Caller id."
