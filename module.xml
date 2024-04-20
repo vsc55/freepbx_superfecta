@@ -2,7 +2,7 @@
 	<rawname>superfecta</rawname>
 	<repo>extended</repo>
 	<name>CID Superfecta</name>
-	<version>16.0.30</version>
+	<version>16.0.31</version>
 	<type>setup</type>
 	<category>Admin</category>
 	<publisher>Sangoma Technologies Corporation</publisher>
@@ -13,6 +13,7 @@
 	</description>
   	<more-info>https://wiki.freepbx.org/display/FPG/CID+Superfecta</more-info>
 	<changelog>
+		*16.0.31* FOP2 Phonebook Source Module adapted to Work with FOP2 2.31.36 or later 
 		*16.0.30* Add date-time variable to superfecta send to email 
 		*16.0.29* Update source-WhoCalled_UK.module 
 		*16.0.28* FREEPBX-23887 and FREEPBX-23564 
