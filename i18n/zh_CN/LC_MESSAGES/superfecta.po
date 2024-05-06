@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-18 01:41+0000\n"
+"POT-Creation-Date: 2024-05-06 04:27+0000\n"
 "PO-Revision-Date: 2018-03-14 14:52+0200\n"
 "Last-Translator: james <zhulizhong@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://weblate.freepbx.org/projects/"
@@ -14,10 +14,10 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2.2-dev\n"
 
-#: Superfecta.class.php:223 Superfecta.class.php:225 Superfecta.class.php:229
-#: Superfecta.class.php:231 Superfecta.class.php:235 Superfecta.class.php:237
-#: Superfecta.class.php:253 Superfecta.class.php:255 Superfecta.class.php:265
-#: Superfecta.class.php:267 Superfecta.class.php:286 Superfecta.class.php:288
+#: Superfecta.class.php:225 Superfecta.class.php:227 Superfecta.class.php:231
+#: Superfecta.class.php:233 Superfecta.class.php:237 Superfecta.class.php:239
+#: Superfecta.class.php:255 Superfecta.class.php:257 Superfecta.class.php:267
+#: Superfecta.class.php:269 Superfecta.class.php:288 Superfecta.class.php:290
 #, php-format
 msgid ", mb_strlen: %s"
 msgstr ""
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Available Encodings"
 msgstr ""
 
-#: Superfecta.class.php:244
+#: Superfecta.class.php:246
 msgid "Bypassing character conversion."
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "CID Rules"
 msgstr ""
 
-#: Superfecta.class.php:302
+#: Superfecta.class.php:304
 #, php-format
 msgid "Call detected as spam, would send call to: %s"
 msgstr ""
@@ -69,57 +69,57 @@ msgstr ""
 msgid "Caller ID Superfecta"
 msgstr ""
 
-#: Superfecta.class.php:267 Superfecta.class.php:288
+#: Superfecta.class.php:269 Superfecta.class.php:290
 #, php-format
 msgid "Caller ID after %s: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:255
+#: Superfecta.class.php:257
 #, php-format
 msgid "Caller ID after mb_convert_encoding: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:237
+#: Superfecta.class.php:239
 #, php-format
 msgid "Caller ID after preg_replace: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:231
+#: Superfecta.class.php:233
 #, php-format
 msgid "Caller ID after stripAccents: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:225
+#: Superfecta.class.php:227
 #, php-format
 msgid "Caller ID after strip_tags: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:265 Superfecta.class.php:286
+#: Superfecta.class.php:267 Superfecta.class.php:288
 #, php-format
 msgid "Caller ID before %s: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:253
+#: Superfecta.class.php:255
 #, php-format
 msgid "Caller ID before mb_convert_encoding: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:235
+#: Superfecta.class.php:237
 #, php-format
 msgid "Caller ID before preg_replace: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:229
+#: Superfecta.class.php:231
 #, php-format
 msgid "Caller ID before stripAccents: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:223
+#: Superfecta.class.php:225
 #, php-format
 msgid "Caller ID before strip_tags: %s, length: %s"
 msgstr ""
 
-#: Superfecta.class.php:270
+#: Superfecta.class.php:272
 #, php-format
 msgid "Caller ID string length is not limited"
 msgstr ""
@@ -134,17 +134,17 @@ msgid ""
 "CallerID name lookups to your Asterisk system using multiple data sources"
 msgstr ""
 
-#: Superfecta.class.php:263
+#: Superfecta.class.php:265
 #, php-format
 msgid "Caller_Id_Max_Length: '%s'"
 msgstr ""
 
-#: Superfecta.class.php:258
+#: Superfecta.class.php:260
 #, php-format
 msgid "Caught exception calling mb_convert_encoding: %s"
 msgstr ""
 
-#: Superfecta.class.php:317
+#: Superfecta.class.php:319
 #, php-format
 msgid "Caught exception: %s<br>Skipping scheme %s<br>"
 msgstr ""
@@ -158,7 +158,7 @@ msgstr ""
 msgid "Character Encodings"
 msgstr ""
 
-#: Superfecta.class.php:242
+#: Superfecta.class.php:244
 #, php-format
 msgid "Character Encodings: '%s'"
 msgstr ""
@@ -167,7 +167,7 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: Superfecta.class.php:250
+#: Superfecta.class.php:252
 msgid "Converting result to UTF-8"
 msgstr ""
 
@@ -199,7 +199,7 @@ msgstr ""
 msgid "Debug Level to display"
 msgstr ""
 
-#: Superfecta.class.php:393
+#: Superfecta.class.php:395
 msgid "Debug is on and set at level:"
 msgstr ""
 
@@ -207,7 +207,7 @@ msgstr ""
 msgid "Debug/Test Run Scheme"
 msgstr ""
 
-#: Superfecta.class.php:398
+#: Superfecta.class.php:400
 msgid "Debugging Enabled, will not stop after first result"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr "启用"
 msgid "Executing"
 msgstr ""
 
-#: Superfecta.class.php:247
+#: Superfecta.class.php:249
 msgid "Function mb_convert_encoding does not exist."
 msgstr ""
 
@@ -401,12 +401,12 @@ msgstr "名称"
 msgid "New Scheme Name"
 msgstr ""
 
-#: Superfecta.class.php:600 functions.inc.php:29 views/add_scheme.php:197
+#: Superfecta.class.php:602 functions.inc.php:29 views/add_scheme.php:197
 #: views/add_scheme.php:224 views/add_scheme.php:402 views/scheme.php:32
 msgid "No"
 msgstr "否"
 
-#: Superfecta.class.php:313
+#: Superfecta.class.php:315
 msgid "No callerid found"
 msgstr ""
 
@@ -440,25 +440,25 @@ msgstr ""
 msgid "Phone number to test this scheme against"
 msgstr ""
 
-#: Superfecta.class.php:198
+#: Superfecta.class.php:200
 #, php-format
 msgid "Prefix Url defined as: %s"
 msgstr ""
 
-#: Superfecta.class.php:200
+#: Superfecta.class.php:202
 msgid "Prefix Url defined but result was empty"
 msgstr ""
 
-#: Superfecta.class.php:202
+#: Superfecta.class.php:204
 #, php-format
 msgid "Prefix Url result took %s seconds."
 msgstr ""
 
-#: Superfecta.class.php:841
+#: Superfecta.class.php:843
 msgid "Reset"
 msgstr "重置"
 
-#: Superfecta.class.php:409
+#: Superfecta.class.php:411
 msgid "Returned Result would be:"
 msgstr ""
 
@@ -492,15 +492,15 @@ msgstr ""
 msgid "Scheme Name: %s"
 msgstr ""
 
-#: Superfecta.class.php:397
+#: Superfecta.class.php:399
 msgid "Scheme Type:"
 msgstr ""
 
-#: Superfecta.class.php:685
+#: Superfecta.class.php:687
 msgid "Scheme can not be empty!"
 msgstr ""
 
-#: Superfecta.class.php:480
+#: Superfecta.class.php:482
 msgid "Scheme names cannot be blank"
 msgstr ""
 
@@ -518,7 +518,7 @@ msgstr ""
 msgid "Send Spam Call To"
 msgstr ""
 
-#: Superfecta.class.php:307
+#: Superfecta.class.php:309
 #, php-format
 msgid "Setting caller id to: %s"
 msgstr ""
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Sources can be added/removed in CID Superfecta section"
 msgstr ""
 
-#: Superfecta.class.php:299
+#: Superfecta.class.php:301
 #, php-format
 msgid "Spam Call, Sending call to: %s"
 msgstr ""
@@ -558,7 +558,7 @@ msgstr ""
 msgid "Strip Accent Characters"
 msgstr ""
 
-#: Superfecta.class.php:846
+#: Superfecta.class.php:848
 msgid "Submit"
 msgstr "提交"
 
@@ -589,15 +589,15 @@ msgstr ""
 msgid "The DID to test this scheme against"
 msgstr ""
 
-#: Superfecta.class.php:394
+#: Superfecta.class.php:396
 msgid "The DID:"
 msgstr ""
 
-#: Superfecta.class.php:395
+#: Superfecta.class.php:397
 msgid "The Original Number:"
 msgstr ""
 
-#: Superfecta.class.php:396
+#: Superfecta.class.php:398
 msgid "The Scheme:"
 msgstr ""
 
@@ -628,7 +628,7 @@ msgid ""
 "This is the threshold to send the call to the specified destination below"
 msgstr ""
 
-#: Superfecta.class.php:310
+#: Superfecta.class.php:312
 #, php-format
 msgid "This scheme would set the caller id to: %s"
 msgstr ""
@@ -669,16 +669,16 @@ msgstr ""
 msgid "Where to send the call when it is detected as spam"
 msgstr ""
 
-#: Superfecta.class.php:598 functions.inc.php:27 views/add_scheme.php:195
+#: Superfecta.class.php:600 functions.inc.php:27 views/add_scheme.php:195
 #: views/add_scheme.php:222 views/add_scheme.php:400 views/scheme.php:30
 msgid "Yes"
 msgstr "是"
 
-#: Superfecta.class.php:689
+#: Superfecta.class.php:691
 msgid "You cannot create a scheme the same name as an existing scheme"
 msgstr ""
 
-#: Superfecta.class.php:700
+#: Superfecta.class.php:702
 msgid "You cannot rename a scheme the same thing as an existing scheme"
 msgstr ""
 
@@ -686,7 +686,7 @@ msgstr ""
 msgid "no"
 msgstr ""
 
-#: Superfecta.class.php:410
+#: Superfecta.class.php:412
 #, php-format
 msgid "result took %s seconds"
 msgstr ""
