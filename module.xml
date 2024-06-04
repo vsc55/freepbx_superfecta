@@ -2,7 +2,7 @@
 	<rawname>superfecta</rawname>
 	<repo>extended</repo>
 	<name>CID Superfecta</name>
-	<version>17.0.1.8</version>
+	<version>17.0.1.9</version>
 	<type>setup</type>
 	<category>Admin</category>
 	<publisher>Sangoma Technologies Corporation</publisher>
@@ -13,7 +13,7 @@
 	</description>
   	<more-info>https://sangomakb.atlassian.net/wiki/spaces/PG/pages/20644530/CID+Superfecta</more-info>
 	<changelog>
-		*17.0.1.8* bump 
+		*17.0.1.9* bump 
 	</changelog>
 	<menuitems>
 		<superfecta needsenginedb="yes">CID Superfecta</superfecta>
@@ -79,6 +79,7 @@
 	<info>https://github.com/POSSA/Caller-ID-Superfecta/wiki</info>
 	<depends>
 		<module>core ge 17.0.1</module>
+		<module>framework ge 17.0.15.26</module>
 	</depends>
 	<hooks>
 		<framework class="Chown" namespace="FreePBX\Console\Command">
