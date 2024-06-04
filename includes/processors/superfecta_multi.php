@@ -1,5 +1,6 @@
 <?php
 
+#[\AllowDynamicProperties]
 class superfecta_multi extends superfecta_base {
 
     public $name = 'Multi';

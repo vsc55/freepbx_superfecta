@@ -1,5 +1,6 @@
 <?php
 
+#[\AllowDynamicProperties]
 class superfecta_single extends superfecta_base {
 
 	public $name = 'Single';

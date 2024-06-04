@@ -510,12 +510,12 @@ class superfecta_base {
 		$tmp = $string;
 		$count = 0;
 		while ($this->isutf8($tmp)) {
-			$tmp = utf8_decode($tmp);
+			$tmp = freepbx_utf8_decode($tmp);
 			$count++;
 		}
 
 		for ($i = 0; $i < $count - 1; $i++) {
-			$string = utf8_decode($string);
+			$string = freepbx_utf8_decode($string);
 		}
 		return $string;
 	}
