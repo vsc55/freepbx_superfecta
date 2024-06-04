@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FreePBX 2.5 Chinese Translation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 00:28-0400\n"
+"POT-Creation-Date: 2024-06-04 08:22-0400\n"
 "PO-Revision-Date: 2018-03-14 14:52+0200\n"
 "Last-Translator: james <zhulizhong@gmail.com>\n"
 "Language-Team: Simplified Chinese <http://weblate.freepbx.org/projects/"
@@ -255,8 +255,8 @@ msgstr ""
 msgid "Enabled"
 msgstr "启用"
 
-#: includes/processors/superfecta_single.php:55
-#: includes/processors/superfecta_single.php:119
+#: includes/processors/superfecta_single.php:56
+#: includes/processors/superfecta_single.php:120
 msgid "Executing"
 msgstr ""
 

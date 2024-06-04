@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-06 00:28-0400\n"
+"POT-Creation-Date: 2024-06-04 08:22-0400\n"
 "PO-Revision-Date: 2017-12-11 22:57+0200\n"
 "Last-Translator: JCattan <jeremie@famillecattan.com>\n"
 "Language-Team: French <http://weblate.freepbx.org/projects/freepbx/"
@@ -262,8 +262,8 @@ msgstr ""
 msgid "Enabled"
 msgstr "Activer"
 
-#: includes/processors/superfecta_single.php:55
-#: includes/processors/superfecta_single.php:119
+#: includes/processors/superfecta_single.php:56
+#: includes/processors/superfecta_single.php:120
 msgid "Executing"
 msgstr "En exécution"
 

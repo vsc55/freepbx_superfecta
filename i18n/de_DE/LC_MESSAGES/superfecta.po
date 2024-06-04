@@ -239,8 +239,8 @@ msgstr ""
 msgid "Enabled"
 msgstr ""
 
-#: includes/processors/superfecta_single.php:55
-#: includes/processors/superfecta_single.php:119
+#: includes/processors/superfecta_single.php:56
+#: includes/processors/superfecta_single.php:120
 msgid "Executing"
 msgstr ""
 
