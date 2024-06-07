@@ -27,7 +27,7 @@ if (!empty($agi->request['agi_callerid'])) {
 	$superfecta->setAgi($agi);
 	$callerid = $superfecta->execute($sn[1], $agi->request);
 	$agi->set_variable("SUPERFECTA_NEW", trim($callerid));
-	$agi->set_variable("SUPERFECTA_OLD", trim($agi->request[agi_calleridname]));
+	$agi->set_variable("SUPERFECTA_OLD", trim($agi->request['agi_calleridname']));
 	$superfecta_new  = $agi->get_variable("SUPERFECTA_NEW");
 	$superfecta_old = $agi->get_variable("SUPERFECTA_OLD");
 	$agi->verbose("Setting channel variable SUPERFECTA_NEW: ".trim($superfecta_new['data']));
