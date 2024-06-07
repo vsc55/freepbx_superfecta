@@ -2,7 +2,7 @@
 	<rawname>superfecta</rawname>
 	<repo>extended</repo>
 	<name>CID Superfecta</name>
-	<version>17.0.1.9</version>
+	<version>17.0.1.10</version>
 	<type>setup</type>
 	<category>Admin</category>
 	<publisher>Sangoma Technologies Corporation</publisher>
@@ -13,7 +13,7 @@
 	</description>
   	<more-info>https://sangomakb.atlassian.net/wiki/spaces/PG/pages/20644530/CID+Superfecta</more-info>
 	<changelog>
-		*17.0.1.9* bump 
+		*17.0.1.10* bump 
 	</changelog>
 	<menuitems>
 		<superfecta needsenginedb="yes">CID Superfecta</superfecta>
