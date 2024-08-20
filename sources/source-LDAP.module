@@ -162,7 +162,7 @@ class LDAP extends superfecta_base {
         // }
 
         // Establish connection with LDAP server
-        $this->DebugEcho("Attempting to bind, using ad:'$ad'  UID:'$UID' ... <br>");
+        $this->DebugEcho("Attempting to bind, using UID:'$UID' ... <br>");
         $bd = @ldap_bind($ad, $UID, "{$run_param['LDAP_Password']}") or $this->DebugDie("Could not bind to {$scheme}://{$server}");
 
         // Check for OU to limit search
