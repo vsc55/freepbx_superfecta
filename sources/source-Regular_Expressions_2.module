@@ -44,13 +44,15 @@ class Regular_Expressions_2 extends superfecta_base
 
 		if (!empty($run_param['URL']) && !empty($run_param['Regular_Expressions'])) { //these are the only mandative values
 			$run_param['URL'] = str_replace('$thenumber', $thenumber, $run_param['URL']);
-			$post = false;
+			$post = [];
 
 			//parse POST data if present
 			if (!empty($run_param['POST_Data'])) {
 				preg_match_all('/\s*"(?P<key>.*)"\s*=\s*"(?P<value>.*)"/m', $run_param['POST_Data'], $matches);
 				for ($i = 0; $i < count($matches['key']); $i++)
 					$post[$matches['key'][$i]] = $matches['value'][$i] == '$thenumber' ? $thenumber : $matches['value'][$i];
+
+				if (count($post) == 0) $post = false;
 
 				if ($this->isDebug() && is_array($post))
 					$this->DebugPrint(sprintf(_('Parsed POST data is: %s'), str_replace('%20', ' ', http_build_query($post, '', ', ', PHP_QUERY_RFC3986))));
