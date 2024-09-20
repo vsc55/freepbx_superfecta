@@ -26,6 +26,7 @@ if ( !function_exists( 'str_contains' ) ) {
 require_once 'Google/Service.php';
 require_once 'Google/Service/Resource.php';
 
+#[AllowDynamicProperties]
 class Google_Service_ReadContacts {
     const SCOPE_CONTACTS_READONLY = "https://www.googleapis.com/auth/contacts.readonly";
     const BASE_URL = "https://people.googleapis.com/v1/people:searchContacts";

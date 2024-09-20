@@ -1,6 +1,7 @@
 <?php
 require_once 'Google/Client.php';
 
+#[AllowDynamicProperties]
 class GoogleAuthManager {
     var $dataDir = '/tmp';
     var $redirect_uri = 'https://127.0.0.1';
