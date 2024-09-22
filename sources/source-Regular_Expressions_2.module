@@ -37,7 +37,7 @@ class Regular_Expressions_2 extends superfecta_base
 
 	function get_caller_id($thenumber, $run_param = array())
 	{
-		$caller_id = null;
+		$caller_id = '';
 
 		if (!$this->isDebug())
 			$this->DebugPrint(_('Running regex_2 scheme. To get logs please run debug mode.'));
